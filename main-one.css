@@ -1,0 +1,431 @@
+* {
+  box-sizing: border-box;
+ }
+
+ body {
+  margin: 0px;
+ }
+
+ img {
+  display: block;
+ }
+
+  .head {
+    position:sticky;
+    z-index: 3;
+    background-color: white;
+    top: 0px;
+    width: 100%;
+   }
+
+ .link {
+  color: black;
+  margin-left: 130px;
+  text-decoration-line: none;
+}
+
+.link:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+
+.nomer {
+  margin-left: 250px;
+  color: white;
+  background-color: rgb(1, 183, 255);
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  text-decoration-line: none;
+  transition:color 0.3s linear border 0.3s linear;
+  transition: color 0.3s linear, border 0.3s linear, background-color 0.3s linear;
+}
+
+.nomer:hover {
+color: rgb(1, 183, 255) ;
+border: 1px solid  rgb(1, 183, 255);
+background-color: white;
+}
+
+ .container {
+  width: 1140px;
+  margin-inline: auto;
+  padding-inline: 20px;
+ }
+
+ .unstyled-list {
+  margin-block: 0;
+  padding-left: 0;
+  list-style-type: none;
+ }
+
+ .box {
+  height: 50px;
+  border: none;
+  box-shadow: 0px 0px 10px -4px rgb(81, 80, 80);
+  border-radius: 5px;
+ }
+
+.logo {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 50px;
+} 
+
+
+.link {
+  color: black;
+  margin-left: 100px;
+  text-decoration-line: none;
+}
+ 
+.nomer {
+  margin-left: 250px;
+  color: white;
+  background-color: rgb(1, 183, 255);
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  text-decoration-line: none;
+
+}
+
+.sila {
+  display: block;
+  font-family: Inter;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 50px;
+  margin-left: 700px;
+  margin-top: 100px;
+}
+
+.text-2 {
+  width: 550px;
+  margin-left: 500px;
+}
+
+.boks {
+  display: flex;
+  margin-inline: auto;
+  margin-top: 40px;
+  width: 900px;
+  height: max-content;
+  border: none;
+  box-shadow: 0px 0px 10px -4px rgb(81, 80, 80);
+  border-radius: 5px;
+}
+
+.img-one {
+  width: 350px;
+  display: inline-block;
+}
+
+.silac {
+  width: max-content;
+  height: max-content;
+  display:flex; 
+}
+
+.prgr {
+ margin-top: 60px;
+ margin-right:70px;
+ width:251px;
+ height:91px;
+}
+
+.yozu {
+  display: block;
+}
+
+.likn {
+  display: inline ;  
+  text-decoration-line: none;
+  color: white;
+  background-color: rgb(1, 183, 255);
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+}
+
+.malumot {
+  text-decoration-line: none;
+  color:rgb(1, 183, 255);
+  padding: 7px;
+  border: none;
+  border-radius: 5px; 
+}
+
+.hero-service-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 64px;
+}
+
+.hero-service-item {
+  display: flex;
+  width: 804px;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 10px 16px 0px #0000001f;
+  transition: box-shadow 0.3s linear;
+}
+
+.hero-service-item:hover {
+  box-shadow: 0px 12px 21px 0px #0000001a;
+}
+
+.hero-service-item:active {
+  box-shadow: 0px 4px 4px 0px #00000033;
+}
+
+.hero-service-pic {
+  margin-inline-end: 40px;
+}
+
+.hero-service-item-inner {
+  width: 500px;
+}
+
+.hero-service-heading {
+  margin-block: 0 16px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.hero-service-paragraph {
+  margin-block: 0 16px;
+  line-height: 24px;
+}
+
+.hero-service-inner-item {
+  margin-block-end: 8px;
+  margin-left: 18px;
+  line-height: 24px;
+  list-style: url("../images/rectangle.svg");
+}
+
+.hero-service-inner-item:last-child {
+  margin-block-end: 16px;
+}
+
+.hero-service-link-list {
+  display: flex;
+  align-items: center;
+}
+
+.service-link-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-order-link {
+  display: inline-block;
+  margin-inline-end: 24px;
+  padding: 8px 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #00bafc;
+  border-radius: 5px;
+  line-height: 24px;
+  text-decoration-line: none;
+  transition: color 0.3s linear, border 0.3s linear, background-color 0.3s linear;
+}
+
+.service-order-link:hover {
+  color: rgb(1, 183, 255) ;
+  border: 1px solid  rgb(1, 183, 255);
+  background-color: white;
+}
+
+.hero-service-inner-item {
+ transition: color 0.2s linear; 
+}
+
+.hero-service-inner-item:hover {
+  color: orange;
+  transform: scale(1.0);
+}
+
+.hero-service-heading {
+  transition: color 0.3s linear;
+}
+
+.hero-service-heading:hover {
+  color: blue;
+  transform: scale(1.0);
+}
+
+.service-link {
+  text-decoration-line: none;
+  color: rgb(1, 183, 255);
+}
+
+.hero-service-pic {
+  transition: transform 0.3s linear;
+}
+
+.hero-service-pic:hover {
+  overflow: hidden;
+  transform: scale(1.1) 
+}
+
+.sect {
+  position: relative;
+  top: 10px;
+  padding: 65px;
+  background-color: rgb(0, 183, 255);
+}
+
+.by-uc {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.par {
+  color: white;
+  display: flex;
+  width: 650px;
+  margin-left: 410px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inp {
+ padding: 10px;
+ background-color: white;
+ width:max-content;
+ margin-left: 600px;
+ border-radius: 5px;
+}
+
+.input {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  border: none;
+}
+
+.by {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  text-decoration-line: none;
+  color: white;
+  background-color: rgb(1, 183, 255);
+  border-radius: 3px;
+  padding: 8px;
+  margin: 10px;
+  height: 20px;
+  border: none;
+}
+
+.footr {
+  padding: 50px;
+  position: relative;
+  top: 10px;
+  justify-content: space-between;
+  background-color: #000;
+ 
+}
+
+.copyr {
+  color: white;
+}
+
+
+.paragraf {
+  color: white;
+  width: 320px;
+}
+
+.sayt {
+  display: block;
+  color: white;
+}
+
+.sayt:hover {
+  color: blue;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px -4px rgb(81, 80, 80);
+}
+
+.lank {
+  display: block;
+  text-decoration-line: none;
+  color:white;
+}
+
+.lank:hover {
+  color: orange;
+  transform: scale(1.1);
+}
+
+.internet {
+  display: block;
+  color: white;
+}
+
+.internet:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+
+.fa-telegram {
+  display: flex;
+  color: white; 
+}
+
+.fa-telegram:hover {
+  color: purple;
+  rotate: -350deg;
+}
+
+.fa-facebook {
+  display: flex;
+  color: white;
+}
+
+.fa-facebook:hover {
+  color: rgb(0, 183, 255);
+  rotate: -350deg;
+}
+
+.fa-square-instagram {
+  display: flex;
+  color: white;
+}
+
+.fa-square-instagram:hover {
+  color: rgb(255, 48, 83);
+  rotate: -350deg;
+}
+
+.inst {
+  display: flex;
+  color: white;
+}
+
+.footer-wrapper {
+  display: flex;
+  column-gap: 450px;
+}
+
+.fa-brands {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
